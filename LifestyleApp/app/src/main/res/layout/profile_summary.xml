@@ -9,10 +9,12 @@
         android:layout_height="wrap_content"
         android:text="Full Name"
         android:textSize="18dp"
-        android:id="@+id/tv_summaryName" />
+        android:id="@+id/tv_summaryName"
+        android:layout_marginRight="8dp"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/iv_summaryPhoto"
-        android:layout_gravity="right"/>
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_launcher_round"/>
 </LinearLayout>
